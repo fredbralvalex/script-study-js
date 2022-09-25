@@ -1,0 +1,7 @@
+{
+    "value":"root",
+    "children" : [
+        { "value":"branch 01" },
+        { "value":"branch 02" }
+    ] 
+}

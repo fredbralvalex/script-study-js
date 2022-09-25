@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <!-- <script src="./encode.js"></script>
+        <script src="./longestToken.js"></script>
+        <script src="./fibonacci.js"></script>
+        <script src="./require.js"></script>
+        <script src="./amd.js"></script>
+        <script src="./sandwich.js"></script>
+    -->
+        <script src="./combination.js"></script>
+
+        <!-- <script type="module" src="./features.js"></script> -->
+        
+        <!-- <script type="module" src="./jsonLoader.js"></script> -->
+        <style>
+            body{
+                margin: 0;
+                min-height: 100vh;
+            }
+/* 
+            body, div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            } */
+            
+            div {
+                display: flex;
+                margin: .5rem;
+                padding: 1rem;
+                border: 3px solid black;
+                min-height: 1rem;
+                flex-grow: 1;
+            }
+            .grandParent {
+                /* height: 200px; */
+                /* width: 200px; */
+                /* background-color: red; */
+                background-color: hsl(0, 50%, 50%);
+                flex-direction: column;
+            }
+            .parent {
+                /* height: 130px; */
+                /* width: 130px; */
+                background-color: hsl(100, 50%, 50%);
+                /* background-color: blue; */
+            }
+            .child {
+                /* height: 60px; */
+                /* width: 60px; */
+                /* background-color: green; */
+                background-color: hsl(200, 50%, 50%);
+
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <div class="Hello">
+            <span class="hi1 hi2" title="hello" id="hi" data-test="This is a test" data-longer-name="longer name">Hello</span>
+            <span class="bye" title="bye" id="bye" style="display: block;">Bye</span>
+        </div> -->
+        <!-- <H1>JavaScript</H1> -->
+        <!-- <div>
+            <p>encode(str)</p>
+            <p>getLongest(str)</p>
+            <p>fibonacci(num)</p>
+            <p>make([n,n,n,n])</p>
+        </div> -->
+
+        <!-- <div class="grandParent">
+            <div class="parent">
+                <div class="child"></div>
+            </div>
+        </div> -->
+
+        <div class="grandParent" id="grand-parent-id">
+            <div class="parent">
+                <div class="child" id="child-one"></div>
+                <div class="child"></div>
+            </div>
+            <div class="parent">
+                <div class="child"></div>
+                <div class="child"></div>
+            </div>
+        </div>
+
+        <div class="a" id="root">
+            <div class="b" id="r0">
+                <div class="c" id="r0-1"></div>
+                <div class="d" id="r0-2"></div>
+                <div class="a" id="r1">
+                    <div class="b" id="r1-1"></div>
+                    <div class="e" id="r1-2"></div>
+                    <div class="c" id="r1-3">
+                        <div class="d" id="r1-3-1"></div>
+                        <div class="e" id="r1-3-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="b" id="r1">
+                <div class="c" id="r1-1"></div>
+            </div>
+        </div>
+
+    </body>
+    <script src="./domTraversing.js"></script>
+
+    <!-- <script src="./domTransversal.js" defer></script> -->
+    <!-- <script src="./features.js"></script> -->
+    <!-- <script src="./eventListeners.js"></script> -->
+</html>
